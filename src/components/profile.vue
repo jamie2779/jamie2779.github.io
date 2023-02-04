@@ -86,8 +86,4 @@ hr {
   margin-top: 10px;
 }
 
-@media (max-width: 575px) {
-  
-}
-
 </style>
