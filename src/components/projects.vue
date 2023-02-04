@@ -43,10 +43,11 @@ export default {
     width: 300px;
     height: 270px;
     background-color: white;
+
     text-align: left;
     
     display:inline-block;
-    margin: 20px;
+    margin: 10px;
 }
 
 .thumbnail{

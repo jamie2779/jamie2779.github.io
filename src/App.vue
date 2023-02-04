@@ -1,14 +1,13 @@
 <template>
   <div class="top_container">
     <img class="logo" src="./img/logo.png" alt="" />
-    <p class="name">KIND_KILLERWHALE</p>
+    <p class="name">Boring_jam_</p>
     <img class="logo2" src="./img/kuromi2.png" alt="" />
   </div>
 
   <Profile/>
   <Projects/>
   
-
 </template>
 
 <script>
@@ -25,9 +24,9 @@ export default {
 
 <style>
 body {
-  background-color: #fbdff0;
+  background-color: whitesmoke;
   user-select: none;
-  height: 5000px;
+  margin-bottom: 80px;
 }
 
 .top_container {
@@ -52,4 +51,11 @@ body {
 .logo2{
   width:150px;
 }
+
+.title {
+  font-size: 45px;
+  font-family: "ccsignlanguage", sans-serif;
+  margin: 20px 0px 0px 0px;
+}
 </style>
+

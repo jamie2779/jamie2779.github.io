@@ -4,7 +4,7 @@
     <img class="kuromi1" src="../img/kuromi1.png" alt="" />
     <img class="profile_image" src="../img/killerwhale.jpg" alt="" />
     <img class="kuromi1" src="../img/kuromi1.png" alt="" />
-    <h4>황동현(kind_killerwhale)</h4>
+    <h4>박재민(boring_jam_)</h4>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga impedit rem
       a magni laborum unde ducimus repellat! Accusamus modi eaque at eum
@@ -41,12 +41,6 @@ export default {
 <style>
 .profile_container {
   text-align: center;
-}
-
-.title {
-  font-size: 45px;
-  font-family: "ccsignlanguage", sans-serif;
-  margin: 20px 0px 0px 0px;
 }
 
 .profile_image {
