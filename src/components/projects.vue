@@ -82,6 +82,10 @@ export default {
     font-size: 12px;
     font-family: 'NanumSquareRound';
     font-weight: bolder;
+}
 
+.project_cell>button:hover{
+  background-color: rgb(230, 230, 230);
+  cursor: pointer;
 }
 </style>

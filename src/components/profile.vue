@@ -74,6 +74,10 @@ export default {
   height: 30px;
 }
 
+.sns_image:hover{
+  cursor: pointer;
+}
+
 .line {
   display: inline-block;
   width: 2px;
