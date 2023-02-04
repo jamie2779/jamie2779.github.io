@@ -6,16 +6,7 @@
     <img class="kuromi1" src="../img/kuromi1.png" alt="" />
     <h4>박재민(boring_jam_)</h4>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga impedit rem
-      a magni laborum unde ducimus repellat! Accusamus modi eaque at eum
-      officiis autem vel, sint rem, vero, doloribus reprehenderit! Lorem ipsum,
-      dolor sit amet consectetur adipisicing elit. Repellendus pariatur beatae
-      labore expedita deleniti velit. Magni rem, accusantium quibusdam autem
-      officiis explicabo, quaerat, repellendus sunt nam velit est adipisci
-      aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-      dolorem temporibus assumenda alias id, vero labore sunt iste blanditiis
-      sint quaerat ducimus corrupti, excepturi quasi ut omnis non, nesciunt
-      amet!
+      개발 공부하는 학생인데 이사이트는 친구 가르쳐주면서 임시로 만든거라 이 꼬라지임, 나중에 바꿀거임, 난 쿠로미 별로 안좋아함
     </p>
     <img class="sns_image" src="../img/instagram.png" @click="gotoLink('https://www.instagram.com/j_min__04_/')"/>
     <div class="line"></div>
@@ -44,16 +35,20 @@ export default {
 }
 
 .profile_image {
-  width: 150px;
-  height: 150px;
+  width:20vw;
+  height:20vw;
+  max-width: 150px;
+  max-height: 150px;
   border-radius: 50%;
   border: solid #707070 1px;
-  margin: 25px 20px;
+  margin: 20px 20px;
 }
 
 .kuromi1 {
-  width: 200px;
-  height: 200px;
+  width:30vw;
+  height:30vw;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .profile_container > h4 {
@@ -90,4 +85,9 @@ hr {
   width: 90%;
   margin-top: 10px;
 }
+
+@media (max-width: 575px) {
+  
+}
+
 </style>
