@@ -14,7 +14,7 @@
 
 <script>
 
-import projectData from "../projectData.js"
+import projectData from "../../public/projectData.js"
 
 export default {
   name: "projectsComponent",
