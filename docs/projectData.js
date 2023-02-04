@@ -23,12 +23,6 @@ export default [
         tag:'#HTML #CSS #JavaScript',
         image:'./projectThumbnail/reactionTime.png',
         url:'./HumanBenchmark'
-    },{
-        id:4,
-        name:'3d Test Project',
-        tag:'#스크롤이벤트 #THREE.js',
-        image:'./projectThumbnail/3dtest.png',
-        url:'./3dtest'
-    },
+    }
     
 ]
