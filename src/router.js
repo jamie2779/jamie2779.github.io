@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from "vue-router";
+import { createWebHashHistory, createRouter } from "vue-router";
 import NotFound from "./components/NotFound.vue"
 import HomePage from "./components/HomePage.vue";
 import AboutPage from "./components/AboutPage.vue";
@@ -9,6 +9,7 @@ import ProjectView from "./components/ProjectView";
 
 
 const routes = [
+    
     {
         path: "/",
         component: HomePage,
@@ -46,7 +47,8 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
+    mode:'hash',
     routes,
 });
 

@@ -63,7 +63,6 @@ const store = createStore({
                 )
                 .then((res) => {
                     store.commit("setPostList", res.data.results);
-                    console.log("getPostList");
                 })
                 .catch((err) => {
                     console.log(err);
@@ -82,7 +81,6 @@ const store = createStore({
                 )
                 .then((res) => {
                     store.commit("setBlock", { key: block_id, value: res.data.results })
-                    console.log(`getBlock: ${block_id}`)
 
                 })
                 .catch((err) => {
@@ -106,8 +104,6 @@ const store = createStore({
                 )
                 .then((res) => {
                     store.commit("setProjectList", res.data.results);
-                    console.log("getProjectList");
-                    console.log(res.data.results)
                 })
                 .catch((err) => {
                     console.log(err);
