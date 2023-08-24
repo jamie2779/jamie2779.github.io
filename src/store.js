@@ -4,7 +4,7 @@ import axios from 'axios';
 const store = createStore({
     state() {
         return {
-            proxy: process.env.VUE_APP_PROXY,
+            proxy: process.env.VUE_APP_CORS_PROXY,
             postList: [],
             blocks: {},
             projectList:[],
