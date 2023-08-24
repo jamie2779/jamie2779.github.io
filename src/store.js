@@ -7,7 +7,7 @@ const store = createStore({
             proxy: process.env.VUE_APP_CORS_PROXY,
             postList: [],
             blocks: {},
-            projectList:[],
+            projectList: [],
             textColor: {
                 default: "37352F",
                 gray: "9B9A97",
