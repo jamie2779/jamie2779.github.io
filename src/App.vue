@@ -27,6 +27,7 @@ export default {
 body {
   max-width: 720px;
   margin: auto;
+  padding-bottom: 40px;
 }
 
 .main{
