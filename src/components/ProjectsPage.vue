@@ -76,6 +76,7 @@ export default {
 
 .project_cell:hover {
   background-color: #efefef;
+  cursor: pointer;
 }
 
 .thumbnail {
