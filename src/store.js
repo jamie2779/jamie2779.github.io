@@ -81,6 +81,7 @@ const store = createStore({
                 )
                 .then((res) => {
                     store.commit("setBlock", { key: block_id, value: res.data.results })
+                    console.log(res.data.results)
 
                 })
                 .catch((err) => {

@@ -23,6 +23,14 @@
     >
       {{ getPlainText() }}
     </li>
+
+    <li
+      v-else-if="data.type == 'numbered_list_item'"
+      class="numbered_list_item"
+    >
+      {{ getPlainText() }}
+    </li>
+
     <span v-else-if="data.type == 'quote'" class="quote">{{ getPlainText() }}</span>
     <hr v-else-if="data.type == 'divider'" class="divider" />
     <img
