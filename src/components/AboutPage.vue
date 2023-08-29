@@ -1,6 +1,6 @@
 <template>
   <div class="profile">
-    <img class="profile_image" src="@/assets/profile.jpg" alt="picture of me" />
+    <img class="profile_image" src="@/assets/hidden.jpg" alt="picture of me" />
     <h2>박재민(@boring_jam_)</h2>
     <p>Data Scientist, YeoungNam Univ.</p>
   </div>
