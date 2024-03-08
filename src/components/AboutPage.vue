@@ -2,7 +2,7 @@
   <div class="profile">
     <img class="profile_image" src="@/assets/hidden.jpg" alt="picture of me" />
     <h2>박재민(@boring_jam_)</h2>
-    <p>Data Scientist, YeoungNam Univ.</p>
+    <p>Data Scientist, Kyungpook National Univ.</p>
   </div>
   <div class="info">
     <h3>Comment</h3>
@@ -31,16 +31,19 @@
       tistory: <a href="https://jamie2779.tistory.com/">심심한 개발기록장</a>
     </li>
 
-    <h3>History</h3>
+    <h3>Educations</h3>
     <li>대구광역시 서부교육치원청 영재교육원 수료(2016-2018)</li>
     <li>KAIST 사이버영재교육원 C언어 레벨 1,2 수료(2018-2019)</li>
     <li>KAIST 사이버영재교육원 Python 레벨 1 수료(2019)</li>
     <li>대구과학영재교육원 수학과정 수료(2019)</li>
-    <li>발명품 경진대회 수상작 특허 출원 [출원번호: 10-2020-0014835] (2020.02.07)</li>
+    <li>구암고등학교 졸업(2020-2022)</li>
+    <li>영남대학교 전공자유선택학부 자퇴(2023)</li>
     <li>2022 SKT AI Curriculum 수료 (2023.05.30)</li>
+    <li>경북대학교 컴퓨터학부 인공지능컴퓨팅전공 재학(2024-)</li>
 
     <h3>Awards</h3>
     <li>제41회 전국학생과학발명품경진대회 특상</li>
+    <li>발명품 경진대회 수상작 특허 출원 [출원번호: 10-2020-0014835] (2020.02.07)</li>
     <li>2020 고등학생 양자암호통신 아이디어 공모전 수상</li>
     <li>2023 Woori 코딩페스티벌 코딩 경진대회 성인부 본선</li>
     <li>2023 영남대학교 오픈소스 SW개발 경진대회 파이썬 부문 대상</li>
